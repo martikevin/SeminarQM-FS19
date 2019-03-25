@@ -18,6 +18,9 @@ class CarTravel:
         self.arrival_node = arrival_node
         self.departure_time = departure_time
         self.arrival_time = arrival_time
+
+    def get_id(self):
+	    return self.ID
     
     def get_arrival_time(self):
         return self.arrival_time
